@@ -433,9 +433,30 @@ MIT License - see [LICENSE](../LICENSE) file for details.
 
 ## 🔗 Related Projects
 
-- **Sensor**: [cragcrowd-firmware](../cragcrowd-firmware/)
-- **Gateway**: [cragcrowd-gateway](../cragcrowd-gateway/)
-- **API**: [cragcrowd-api](../cragcrowd-api/)
+- **Main Project**: [cragcrowd-utils](https://github.com/shotah/cragcrowd-utils) - Deployment & documentation
+- **API**: [cragcrowd-api](https://github.com/shotah/cragcrowd-api) - TypeScript/Express backend
+- **Sensor**: [cragcrowd-firmware](https://github.com/shotah/cragcrowd-firmware) - ESP32 sensor firmware
+- **Gateway**: [cragcrowd-gateway](https://github.com/shotah/cragcrowd-gateway) - ESP32 gateway firmware
+
+## 🚀 Quick Start (Full System)
+
+For complete system setup including all components:
+
+```bash
+# Clone all repositories  
+mkdir cragcrowd && cd cragcrowd
+git clone https://github.com/shotah/cragcrowd-utils.git
+git clone https://github.com/shotah/cragcrowd-api.git
+git clone https://github.com/shotah/cragcrowd-web-ui.git
+git clone https://github.com/shotah/cragcrowd-firmware.git
+git clone https://github.com/shotah/cragcrowd-gateway.git
+
+# Start development environment
+cd cragcrowd-utils
+make quick-dev
+```
+
+See the [cragcrowd-utils repository](https://github.com/shotah/cragcrowd-utils) for complete deployment instructions.
 
 ## 🤝 Contributing
 
